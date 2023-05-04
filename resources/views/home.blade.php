@@ -9,5 +9,20 @@
 </head>
 <body>
     <h1>Template Blade and Vite</h1>
+    <div>
+        <ul>
+            @foreach ($Movies as $Movie)
+                <li>
+                    <h2>{{ $Movie->title }}</h2>
+                    <h3>Originial title: {{ $Movie->original_title }}</h3>
+                    <div>Nationality: {{ $Movie->nationality }}</div>
+                    <div>Date: {{$Movie->date}}</div>
+                    <div>Rating: {{$Movie->vote}}</div>
+
+                </li>
+            @endforeach
+        </ul>
+    </div>
+    
 </body>
 </html>
