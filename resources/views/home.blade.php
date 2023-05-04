@@ -8,6 +8,6 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-    <h1>Teemplate Blade and Vite</h1>
+    <h1>Template Blade and Vite</h1>
 </body>
 </html>
